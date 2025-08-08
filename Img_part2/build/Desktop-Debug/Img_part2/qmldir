@@ -1,5 +1,0 @@
-module Img_part2
-typeinfo appImg_part2.qmltypes
-prefer :/qt/qml/Img_part2/
-Main 1.0 Main.qml
-

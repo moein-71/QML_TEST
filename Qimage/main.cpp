@@ -9,13 +9,13 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     // بارگذاری تصویر
-    QImage img("Start.jpg");
+    QImage img("clock-face.png");
     if (img.isNull()) {
         qWarning("pic dont load");
         return -1;
     }
     img = img.scaled(1920 , 1600 , Qt::KeepAspectRatio) ;
-    int halfHeight = img.height() / 2;
+    int halfHeight = img.height();
     for (int y = 0; y < halfHeight; ++y) {
         for (int x = 0; x < img.width(); ++x) {
             QColor color = img.pixelColor(x, y);
