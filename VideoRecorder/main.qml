@@ -9,6 +9,7 @@ Window {
     width: 1280
     height: 720
     title: "test video recorder"
+    color: "#FFC0CB"
     ColumnLayout {
         anchors.centerIn: parent
         spacing: 20
